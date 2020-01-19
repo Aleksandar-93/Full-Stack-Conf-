@@ -1,0 +1,65 @@
+.navbar .navbar-brand {
+    color: rgba(255,255,255, 0.85);
+    font-size: 1rem;
+}
+
+.jumbotron {
+    background-image: url("../img/jumbo-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.slika1 {
+    background: linear-gradient(0deg,rgba(0, 102, 255, 0.3),rgba(179, 209, 255, 0.3)),url(../img/nodestradamus.png);
+    background-position: -11px;
+}
+
+.slika2 {
+    background: linear-gradient(0deg,rgba(0, 102, 255, 0.3),rgba(179, 209, 255, 0.3)),url(../img/vivianne.png);
+    background-position: -14px;
+}
+
+.slika3 {
+    background: linear-gradient(0deg,rgba(0, 102, 255, 0.3),rgba(179, 209, 255, 0.3)),url(../img/jay.png);
+    background-position: -18px;
+}
+
+.slika4 {
+    background: linear-gradient(0deg,rgba(0, 102, 255, 0.3),rgba(179, 209, 255, 0.3)),url(../img/ecma.png);
+    background-position: -14px;
+}
+
+.slika5 {
+    background: linear-gradient(0deg,rgba(0, 102, 255, 0.3),rgba(179, 209, 255, 0.3)),url(../img/robbie.png);
+    background-position: -20px;
+}
+
+.slika6 {
+    background: linear-gradient(0deg,rgba(0, 102, 255, 0.3),rgba(179, 209, 255, 0.3)),url(../img/json.png);
+    background-position: -14px;
+}
+
+.card-span span:first-child {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -6px;
+}
+
+@media(max-width:500px){
+    .card-span span:first-child{
+        display: none;
+    }
+    .container{
+        text-align: center;
+    }
+    .navbar .navbar-brand{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    }
+}
